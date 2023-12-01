@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 0.5px #80808029 solid;
+    height: 68px;
+    width: 100vw;
+}
+.navbar:hover{
+    cursor: pointer;
+}
+
+.zerodha-logo{
+    height: 17px;
+    margin: 24px 123px;
+}
+ul{
+    display: flex;
+    padding: 1px 100px;
+  font-size: 16px;
+  color: grey;
+}
+.navbar li {
+    list-style: none;
+    padding: 25px 21px;
+    font-weight: lighter;
+}
+.navbar li:hover{
+    color: #387fd1;
+}
+main{
+    font-family: 'Roboto', sans-serif;
+}
+.landing-zerodha{
+    height: 285px;
+    display: flex;
+    margin: 59px auto;
+}
